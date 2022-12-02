@@ -1,0 +1,97 @@
+#logo{
+    width: 3%;
+    margin-right: 2%;
+}
+.navbar navbar-expand navbar-light bg-light{
+    margin-right: 20%;
+}
+.card{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.text-center{
+    margin: 1%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: black 1px 2px;
+   
+}
+.nome{
+    color:orange;
+    text-shadow: black  1px 1px;
+    font-size: larger;
+    
+}
+.endereco {
+    margin-left: 3%;
+}
+.imgFundo{
+    background-repeat: no-repeat;
+    background-position-y: 1%;
+    background-size: cover;
+    background-attachment :fixed;
+    background-image: url(https://portosaopedro.com.br/wp-content/uploads/2019/03/aproximacao-da-natureza-promove-qualidade-de-vida-1.jpg) ;
+}
+.carousel-inner{
+    margin-top: 1%;
+    background-color: black;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.voltar{
+    color: white;
+    margin-left: 45%;
+    margin-top: 10%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2%;
+}
+.text-centerDesc{
+    text-align:center;
+    font-style: oblique;
+    margin: 1%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: black 1px 1px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+   
+}
+.ad{
+    text-align: center;
+    margin-top: 2%;
+}
+.text-centerGalery{
+    margin: 1%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+   
+}
+.galeriaFoto{
+    
+    border-color: white;
+}
+
+#area{
+    display:relative;
+    left: 60%;
+  width:400px;
+  height:270px;
+}
+
+.reserva{
+    border-color: black;
+    background-color: lightgrey;
+}
+label{
+    position:absolute;
+    left:15px;
+
+
+}
+.center{
+    left:50px;
+}
+

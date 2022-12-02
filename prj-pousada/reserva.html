@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">    <link rel="stylesheet" href="css/meuCss.css">
+    <title>Document</title>
+</head>
+  <body>
+      <header>
+          <nav class="navbar navbar-expand navbar-dark bg-dark">
+              <img class= "img-fluid" src="images/logo.png" id="logo">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto nav justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="galerIa.html">Galeria</a>
+                  <li class="nav-item dropdown">
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="sobreNos.html">Sobre nós</a>
+                    </li>
+                  <li class="nav-item active">
+                    <a class="nav-link " href="reserva.html">Reservas</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+              </div>
+            </nav>
+      </header>
+      <h1 class="text-centerGalery">RESERVE SEU QUARTO AQUI</h1>
+       <div class="container-fluid" id="formReserva"> 
+        <div id="area">
+      <form name="frmReserva" class="reserva shadow p-3 mb-5 bg-body rounded">
+          <select name="slcSuite" id="slcSuite">
+            <option value="0">Master</option>
+            <option value="1">Deluxe</option>
+            <option value="2">stardard</option>
+          </select>
+          <br>
+          <table>
+          <label>n°Hospedes</label>
+          <br>
+            <input type="text" name="hospede" id="hospede">  
+            <br>       
+            <label>n°diaria</label>
+            <br>
+            <input type="text" name="diaria" id="diaria">
+          <br>
+          </table>
+          <h5>Refeições</h5>
+          <input type="radio" id="rdRefeicao" name="rdrefeicao" value="1"> Café da manhã
+          <input type="radio" id="rdRefeicao" name="rdrefeicao" value="2"> Meia Pensão
+          <input type="radio" id="rdRefeicao" name="rdrefeicao" value="3"> Pensão Completa
+          <br>
+            <h5>Serviços Adicionais</h5>  
+            <input type="checkbox" id="traslado" name="traslado"> Traslado
+            <input type="checkbox" id="cityTour" name="cityTour"> City Tour
+            <input type="checkbox" id="passeio" name="passeio"> Passeio
+            <br>
+            <table>
+              <tr>
+                <td>
+                  <input type="button" value="calcular" onclick= "calcular()">
+                </td>
+                <td>
+                  <h6 id="valorTotal"></h6>
+                </td>
+                </tr>
+              </table>
+          
+        </form>
+        <hr>
+        <div class="row">
+          <div class="col">
+        <h2>Resumo</h2>
+        <div id="suite"></div>
+        <div id="refeicao"></div>
+        <div id="divhospede"></div>
+        <div id="divdiaria"></div>
+        <div id="adicionais"></div>
+        <div id="valorTotal"></div>
+      </div>
+      </div>
+  </div>
+      <a class="voltar" href="index.html">
+        <button type="button" class="btn btn-success">Página inicial</button>
+      </a>
+       
+        <script src="js/reserva.js"></script>
+  </body>
+</html>
