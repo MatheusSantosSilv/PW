@@ -5,7 +5,7 @@
 .navbar navbar-expand navbar-light bg-light{
     margin-right: 20%;
 }
-.card{
+.cardHome{
     margin-top: 10%;
     margin-left: 10%;
 }
@@ -42,7 +42,7 @@
     color: white;
     margin-left: 45%;
     margin-top: 10%;
-    position: absolute;
+    position: relative;
     bottom: 0;
     margin-bottom: 2%;
 }
@@ -67,10 +67,11 @@
     font-weight: bold;
     color: rgb(0, 0, 0);
     text-align: center;
+
    
 }
 .galeriaFoto{
-    
+    width: 200px;
     border-color: white;
 }
 
@@ -90,7 +91,5 @@ label{
 
 
 }
-.center{
-    left:50px;
-}
+
 
